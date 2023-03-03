@@ -1,7 +1,5 @@
-@import url(./css/header.css);
-@import url(./css/hero.css);
-@import url(./css/main.css);
-
+@import url(./css/middle-maind.css);
+@import url(./css/footer.css);
 * {
     margin: 0;
     padding: 0;
@@ -171,4 +169,80 @@ body {
     svg.image-main path {
         fill: #FFFFFF;
     }
+
+    footer {
+        height: 328px;
+
+    }
+     
+
+    .block {
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+    }
+
+
+    .top-side {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+       
+        
+    }
+
+    .logo2 {
+        display: block;
+        margin-top: 5px;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+    .foot-btn {
+        margin-top: 7px;
+    }
+
+
+    .down-side {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .icons {
+        margin-top: 56px;
+    }
+
+
+    .price {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+
+    .lorem {
+        width: 343px;
+        height: 130px;
+    }
+
+
+    .kit {
+        margin-top: 35px;
+    }
+
+
+    .dollar {
+        font-size: 80px;
+    }
+
+
+    .simple {
+        margin-top: 9px;
+    }
+    
 }
